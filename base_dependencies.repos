@@ -1,0 +1,61 @@
+repositories:
+    # MoveIt repositories
+    moveit_task_constructor:
+        type: git
+        url: https://github.com/moveit/moveit_task_constructor.git
+        version: humble
+    moveit_visual_tools:
+        type: git
+        url: https://github.com/moveit/moveit_visual_tools
+        version: ros2
+    rviz_visual_tools:
+        type: git
+        url: https://github.com/PickNikRobotics/rviz_visual_tools.git
+        version: ros2
+    moveit2:
+        type: git
+        url: https://github.com/moveit/moveit2
+        version: humble
+    moveit_resources:
+        type: git
+        url: https://github.com/moveit/moveit_resources
+        version: humble
+    moveit_msgs:
+        type: git
+        url: https://github.com/moveit/moveit_msgs
+        version: humble
+
+    # UR Support
+    Universal_Robots_ROS2_Driver:
+        type: git
+        url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
+        version: humble
+    Universal_Robots_Client_Library:
+        type: git
+        url: https://github.com/UniversalRobots/Universal_Robots_Client_Library.git
+        version: master
+    Universal_Robots_ROS2_Description:
+        type: git
+        url: https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
+        version: humble
+    ur_msgs:
+        type: git
+        url: https://github.com/ros-industrial/ur_msgs.git
+        version: foxy-devel
+    ros2_control:
+        type: git
+        url: https://github.com/ros-controls/ros2_control.git
+        version: humble
+    ros2_controllers:
+        type: git
+        url: https://github.com/ros-controls/ros2_controllers
+        version: humble
+    kinematics_interface:
+        type: git
+        url: https://github.com/ros-controls/kinematics_interface.git
+        version: master
+    control_msgs:
+        type: git
+        url: https://github.com/ros-controls/control_msgs.git
+        version: humble
+        
